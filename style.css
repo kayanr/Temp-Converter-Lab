@@ -1,9 +1,13 @@
+
+
 body {
-    font-style: light;  
+    font-style: light; 
+
 }
 .grid-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    border: 10px solid black;
    
 }
   
@@ -23,6 +27,7 @@ input[type=number] {
     font-size: 25px;
     position: relative;
     left: 15px;
+    text-align: center;
 }
 button {
     border-radius: 1px;
